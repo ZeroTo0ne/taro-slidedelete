@@ -1,38 +1,38 @@
 .container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f4f4;
+  border-top: 1rpx solid #e8e8e8;
+  .movablearea {
     width: 100%;
-    height: 100vh;
-    background-color: #f4f4f4;
-    border-top: 1rpx solid #e8e8e8;
-    .movablearea {
-        width: 100%;
-        height: 140rpx;
-        background-color: white;
-        border-bottom: 1rpx solid #E8E8E8;
-        .movableview {
-            width: calc(100% + 180rpx);
-            height: 140rpx;
-            .content {
-                display: flex;
-                align-items: center;
-                width: calc(100% - 160rpx);
-                height: 100%;
-                padding: 0 0 0 20rpx;
-            }
-            .del {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                right: 0;
-                top: 0;
-                width: 160rpx;
-                height: 100%;
-                color: white;
-                font-size: 28rpx;
-                background-color: #FF4540;
-            }
-        }
+    height: 140rpx;
+    background-color: white;
+    border-bottom: 1rpx solid #e8e8e8;
+    .movableview {
+      width: calc(100% + 180rpx);
+      height: 140rpx;
+      .content {
+        display: flex;
+        align-items: center;
+        width: calc(100% - 160rpx);
+        height: 100%;
+        padding: 0 0 0 20rpx;
+      }
+      .del {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 160rpx;
+        height: 100%;
+        color: white;
+        font-size: 28rpx;
+        background-color: #ff4540;
+      }
     }
+  }
 }
